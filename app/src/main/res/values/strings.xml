@@ -2,4 +2,11 @@
     <string name="app_name">Lifestyle</string>
     <string name="look_at_your_goals_text">look at your goals</string>
     <string name="make_your_choice_text">make your choice</string>
+
+    <array name="lifestyle">
+        <item>light</item>
+        <item>medium</item>
+        <item>complicated</item>
+    </array>
+
 </resources>

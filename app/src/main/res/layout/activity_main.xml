@@ -14,7 +14,8 @@
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toStartOf="@+id/button_id"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:entries="@array/lifestyle"/>
 
     <Button
         android:id="@+id/button_id"
@@ -22,7 +23,8 @@
         android:layout_height="48dp"
         android:text="@android:string/ok"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/spinner_id" />
+        app:layout_constraintTop_toTopOf="@+id/spinner_id"
+        android:onClick="onChooseWayOfLifeClick"/>
 
     <TextView
         android:id="@+id/text_view_id"
@@ -30,6 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="@string/look_at_your_goals_text"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="italic"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
         android:textSize="24sp"
