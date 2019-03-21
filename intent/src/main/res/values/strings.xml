@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="enter_text_et">enter text</string>
+    <string name="save_bt">save</string>
+</resources>
