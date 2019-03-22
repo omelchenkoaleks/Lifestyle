@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_SAVE_TEXT = "message";
     EditText mSendText;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "enter text", Toast.LENGTH_SHORT).show();
         }
+    }
 
+    public void onToSecondActivityClick(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 }
