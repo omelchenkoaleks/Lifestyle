@@ -1,1 +1,1 @@
-include ':app', ':intent', ':stopwatch'
+include ':app', ':intent', ':stopwatch', ':fish'

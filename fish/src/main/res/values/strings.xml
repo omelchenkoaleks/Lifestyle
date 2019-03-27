@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fish</string>
+
+    <array name="main_fish_list">
+        <item>fish</item>
+        <item>lakes</item>
+        <item>recreation center</item>
+    </array>
+</resources>
